@@ -1,0 +1,14 @@
+{
+  "name": "robloxrpc",
+  "version": "1.0.0",
+  "description": "NodeJS app that supports DiscordRPC on Roblox",
+  "license": "MIT",
+  "repository": "hacking101/robloxrpc",
+  "main": "index.js",
+  "keywords": [
+    "discord",
+    "npm",
+    "package",
+    "roblox"
+  ]
+}
