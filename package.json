@@ -1,14 +1,24 @@
 {
   "name": "robloxrpc",
-  "version": "1.0.0",
+  "version": "4.2.3",
   "description": "NodeJS app that supports DiscordRPC on Roblox",
-  "license": "MIT",
-  "repository": "hacking101/robloxrpc",
-  "main": "index.js",
+  "bin":"index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "dependencies": {
+    "http":"latest",
+	"url":"latest",
+	"discord-rich-presence":"latest"
+  },
   "keywords": [
     "discord",
-    "npm",
-    "package",
-    "roblox"
-  ]
+	"rpc",
+	"roblox"
+  ],
+  "author": "Hacking101",
+  "license": "MIT"
 }
