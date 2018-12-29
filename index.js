@@ -36,9 +36,9 @@ function Change(tab) {
 			};
 		};
 	};
-	for (x in send) {
-		console.log(x + " " + send[x]);
-	};
+	/*for (x in send) {
+		console.log(x + " " + send[x]); //for debugging what network receives
+	};*/
 	client.updatePresence(send);
 };
 
